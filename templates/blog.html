@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>blag</title>
+  </head>
+  <body>
+    <h1>blag</h1>
+    {% for posting in postings %}
+    <div class="posting">
+      <div class="posting-subject">{{posting.subject}}</div>
+      <div class="posting-content">{{posting.content}}</div>
+    </div>
+    {% endfor %}
+
+  </body>
+</html>
